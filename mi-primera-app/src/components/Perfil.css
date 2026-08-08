@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffc7ea;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #272727;
+
+}
+
+.perfil{
+    background-color: #f0f3f0;
+    width: 400px;
+    margin: 50px auto;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+

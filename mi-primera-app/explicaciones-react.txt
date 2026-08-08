@@ -1,0 +1,23 @@
+1)Que significa : <div id="root"></div>?
+-Es una caja vacía donde React mete toda nuestra aplicación. Desde main.jsx, React busca ese div 
+y ahí coloca nuestros componentes.
+
+2)¿Por qué es importante para React?
+-Porque ese div es importante para que React sepa donde montar y mostrar nuestra aplicacion dentro del HTML.
+
+3)Qué pasa si lo eliminás o cambiás su id?
+-Si elimino el id, React no encontraría dónde poner mi aplicación. Y si lo cambio, tengo que cambiarlo 
+también en main.jsx, porque si no React no encontraría el lugar donde montar la aplicación
+ y el proyecto no funcionaría correctamente.
+
+ 4)¿Dónde en el proyecto se usa ese id?
+ -El id="root" se utiliza en main.jsx, donde React busca ese elemento mediante
+  document.getElementById("root") para montar nuestra aplicación
+
+5)¿Qué hace ReactDOM.createRoot()?
+-createRoot() crea la raíz de React y la conecta con el elemento root del HTML para poder mostrar
+ nuestra aplicación.
+6)¿Qué signifca root.render(<App />)?
+-root.render(<App />) le indica a React qué componente debe mostrar dentro del elemento root.
+7)¿Qué pasa si cambiás el componente quese renderiza por otro
+-El componente que ponga dentro de render() es el que React va a mostrar en pantalla.
