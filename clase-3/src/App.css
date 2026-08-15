@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ff54be;
+  padding: 20px;
+  text-align: center;
+}
+
+.content {
+  background-color: #c0baba;
+  padding: 20px;
+  text-align: center;
+  height: 80vh;
+}
+
+footer{
+  background-color: #46052b;
+  padding: 20px;
+  text-align: center;
+}
