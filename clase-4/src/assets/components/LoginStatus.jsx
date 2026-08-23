@@ -3,11 +3,11 @@ import './LoginStatus.css'
 const LoginStatus = ({ isLoggedIn }) => {
   if (isLoggedIn) {
     return (
-      <h2 className="title">Bienvenido</h2>
+      <h1 className="title">Bienvenido</h1>
     )
   } else {
     return (
-      <h2 className="title">Debes iniciar sesión</h2>
+      <h1 className="title">Debes iniciar sesión</h1>
     )
   }
 }

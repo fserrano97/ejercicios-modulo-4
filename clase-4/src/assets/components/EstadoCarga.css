@@ -1,0 +1,12 @@
+.container-carga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+
+.carga{
+    color: white;
+    text-align: center;
+}

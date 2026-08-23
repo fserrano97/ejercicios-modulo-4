@@ -5,14 +5,11 @@
 }
 
 body{
-    background-color: #554d29;
+    background-color: #757368;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    height:100vh;
     width: 100vw;
     
-
-
 
 }
