@@ -1,0 +1,64 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+ 
+.titulo{
+    margin-top: 2rem;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 200px;
+    list-style: none;
+}
+
+.nombre-producto {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.oferta {
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+    background-color: #ff0000;
+    border-radius: 8px;
+    font-size: 0.7em;
+    position: relative;
+    top: 1em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container-tareas{
+    background-color: #030202;
+    padding: 2rem;
+    color: white;
+    border-radius: 8px;
+    margin: 10px;
+    width: 300px;
+}
+
+.titulo-tareas{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.tareas-completadas{
+    color: #4caf50;
+    font-weight: bold;
+}
