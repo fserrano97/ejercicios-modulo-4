@@ -1,55 +1,63 @@
-.container {
+.container-productos {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    background-color: pink;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
 }
  
 .titulo{
-    margin-top: 2rem;
+    margin-top:1rem;
 }
 
 .productos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+
+    gap: 22px;
+    padding: 10px;
 }
 
 .producto {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
-    border: 1px solid #ccc;
     border-radius: 8px;
-    width: 200px;
+    width: 157px;
     list-style: none;
+    border: 3px solid gray;
+    justify-content: space-around;
+    padding: 10px;
 }
 
 .nombre-producto {
     font-weight: bold;
     font-size: 1.2em;
+    margin-top: 5px;
 }
 .oferta {
-    color: white;
+  color: white;
     font-weight: bold;
     padding: 0.5rem;
     background-color: #ff0000;
-    border-radius: 8px;
+    border-radius: 60%;
     font-size: 0.7em;
     position: relative;
-    top: 1em;
-    left: 50%;
-    transform: translateX(-50%);
-}
+    top: -6em;
+    left: 76%;
+    transform: translateX(-50%);}
 
 .container-tareas{
     background-color: #030202;
     padding: 2rem;
     color: white;
     border-radius: 8px;
-    margin: 10px;
+    margin: auto;
+    margin-bottom: 20px;
     width: 300px;
 }
 

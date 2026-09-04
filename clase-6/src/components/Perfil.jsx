@@ -3,7 +3,7 @@ import './Perfil.css'
 
 const Perfil = ({ usuario }) => {
   return (
-    <div className="container">
+    <div className="container-perfil">
       <div className="perfil">
         <h1>{usuario.nombre}</h1>
         <p>Edad: {usuario.edad}</p>
