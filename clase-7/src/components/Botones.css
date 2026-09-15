@@ -1,0 +1,42 @@
+.container-botones{
+    display: flex;
+    justify-content: center;
+}
+
+
+.contenedor-botones{
+        border: 1px solid white;
+    padding: 20px;
+    width: 200px;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.botones{
+    display: flex;
+    gap: 9px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.boton{
+       margin: 7px;
+    border: none;
+    background-color: #a30867;
+    padding: 10px 13px;
+    border-radius: 3px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:active{
+    background-color: rgb(252, 128, 200);
+}
+
+.contador-estilo{
+    font-size: 1.5rem;
+}

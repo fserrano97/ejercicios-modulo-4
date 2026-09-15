@@ -1,0 +1,26 @@
+.container-boton-color{
+    height: 99px;
+}
+
+.texto-verde{
+    color: green;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.texto-rojo{
+    color: red;
+     font-size: 1.5em;
+     margin: 10px 0;
+}
+
+.boton-color{
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 8px;
+    background-color: rgb(30, 88, 18);
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+}
