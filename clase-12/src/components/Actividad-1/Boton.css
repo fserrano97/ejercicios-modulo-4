@@ -1,0 +1,34 @@
+.container-act1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.clase-si-true{
+    background-color: green;
+    width: 350px;
+    height: 300px;
+    border-radius: 3px;
+}
+
+.clase-si-false{
+    background-color: blue;
+    width: 350px;
+    height: 300px;
+    border-radius: 3px;
+}
+
+.button-color{
+   padding: 10px 25px;
+    border-radius: 3px;
+    border: none;
+    background-color: cadetblue;
+    color: #252424;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.button-color:hover{
+    background-color: aqua;
+}
