@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.card{
+    background-color: rgb(241, 240, 240);
+    border-radius: 3px;
+    width: 350px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+
+.img{
+    width: 300px;
+    border-radius: 3px;
+    height: 300px;
+}
+
+.titulo{
+    font-size: 1.1em;
+    color: rgb(12, 12, 12);
+
+}
+
+button:hover{
+    cursor: pointer;
+}
+.cartAzul,
+.cartVerde {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  gap: 8px;
+  padding:10px 14px;
+  border-radius: 4px;
+}
+.cartVerde{
+    background-color: green;
+    font-size: 1em;
+   
+   
+}
+
+.cartVerde:hover{
+    background-color: rgb(7, 153, 43);
+}
+.cartAzul{
+    background-color: blue;
+    font-size: 1em;
+   
+  
+}
+.cartAzul:hover{
+    background-color: rgb(39, 39, 218);
+}
+
+.textoAgregado{
+    font-weight: bold;
+}
+
+.textoAgregar{
+    font-weight: lighter;
+}
